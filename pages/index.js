@@ -6,8 +6,6 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import useTranslation from 'next-translate/useTranslation'
 
-import NewsletterForm from '@/components/NewsletterForm'
-
 const MAX_DISPLAY = 5
 
 export async function getStaticProps({ locale, defaultLocale, locales }) {
