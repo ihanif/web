@@ -1,5 +1,5 @@
 ---
-name: Tails Azimuth
+name: Hanif Rahman
 avatar: /static/images/avatar.png
 occupation: Professeur des sciences atmosphériques
 company: Université de Stanford

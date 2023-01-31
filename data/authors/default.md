@@ -1,8 +1,8 @@
 ---
-name: Tails Azimuth
+name: Hanif Rahman
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
+occupation: Software Engineer
+company: Pashto DAO
 email: address@yoursite.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com

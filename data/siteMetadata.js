@@ -1,10 +1,15 @@
 const siteMetadata = {
-  title: { en: 'Next.js Starter Blog', fr: 'Starter de blog NextJs' },
-  author: 'Tails Azimuth',
-  headerTitle: { en: 'TailwindBlog', fr: 'blog Tailwind' },
-  // description: 'A blog created with Next.js and Tailwind.css',
-  description: { en: 'en description', fr: 'Description en fr' },
-  language: 'en-us',
+  title: {
+    en: 'A community for the advancement of the Pashto language',
+    ps: 'د پښتو ژبې د پرمختګ لپاره یوه ټولنه',
+  },
+  author: 'Hanif Rahman',
+  headerTitle: { en: 'Pashto DAO', ps: 'پښتو ډاو' },
+  description: {
+    en: 'A community for the advancement of the Pashto language',
+    ps: 'د پښتو ژبې د پرمختګ لپاره یوه ټولنه',
+  },
+  language: 'ps-af',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
@@ -13,7 +18,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'address@yoursite.com',
   github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  twitter: 'https://twitter.com',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
