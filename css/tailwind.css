@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html[lang^='ps'] {
+  direction: rtl;
+}
+
 .task-list-item::before {
   @apply hidden;
 }
