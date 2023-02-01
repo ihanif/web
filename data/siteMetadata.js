@@ -1,13 +1,13 @@
 const siteMetadata = {
   title: {
-    en: 'A community for the advancement of the Pashto language',
-    ps: 'د پښتو ژبې د پرمختګ لپاره یوه ټولنه',
+    en: 'A community for the development of Pashto',
+    ps: 'د پښتو د پرمختګ لپاره یوه ټولنه',
   },
-  author: 'Hanif Rahman',
+  author: 'Pashto DAO',
   headerTitle: { en: 'Pashto DAO', ps: 'پښتو ډاو' },
   description: {
-    en: 'A community for the advancement of the Pashto language',
-    ps: 'د پښتو ژبې د پرمختګ لپاره یوه ټولنه',
+    en: 'Our mission is to create a vibrant community of volunteers and contributors who are dedicated to the development and adoption of the Pashto language',
+    ps: 'زموږ دنده دا ده چې د رضاکارانو او مرسته کونکو یوه فعاله ټولنه رامینځته کړو چې د پښتو ژبې پراختیا او پلي کولو ته وقف شوي وي.',
   },
   language: 'ps-af',
   theme: 'system', // system, dark or light
@@ -22,7 +22,7 @@ const siteMetadata = {
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
-  locale: 'en-US',
+  locale: 'ps-AF',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.

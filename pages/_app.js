@@ -2,8 +2,6 @@ import '@/css/tailwind.css'
 import '@/css/prism.css'
 import 'katex/dist/katex.css'
 
-import '@fontsource/inter/variable-full.css'
-
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 
@@ -12,6 +10,12 @@ import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import RSS from '@/components/Rss'
 import { ClientReload } from '@/components/ClientReload'
+
+import '@fontsource/inter/variable-full.css'
+/* import localFont from '@next/font/local'
+const myFont = localFont({
+  src: 'public/static/fonts/Noto_Naskh_Arabic/NotoNaskhArabic-VariableFont_wght.ttf',
+}) */
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
