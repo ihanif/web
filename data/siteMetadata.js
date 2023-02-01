@@ -9,6 +9,11 @@ const siteMetadata = {
     en: 'Our mission is to create a vibrant community of volunteers and contributors who are dedicated to the development and adoption of the Pashto language',
     ps: 'زموږ دنده دا ده چې د رضاکارانو او مرسته کونکو یوه فعاله ټولنه رامینځته کړو چې د پښتو ژبې پراختیا او پلي کولو ته وقف شوي وي.',
   },
+  moreLink: {
+    en: 'Learn more →',
+    ps: 'تفصيلات وګورئ ←',
+  },
+
   language: 'ps-af',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
