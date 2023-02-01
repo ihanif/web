@@ -1,11 +1,11 @@
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { getFileBySlug } from '@/lib/mdx'
 
-const DEFAULT_LAYOUT = 'AuthorLayout'
+const DEFAULT_LAYOUT = 'PageLayout'
 
 export async function getStaticProps({ locale, defaultLocale, locales }) {
   const otherLocale = locale !== defaultLocale ? locale : ''
-  const authorDetails = await getFileBySlug('authors', [`sparrowhawk`], otherLocale)
+  const authorDetails = await getFileBySlug('about', [`about`], otherLocale)
   return { props: { authorDetails, availableLocales: locales } }
 }
 
