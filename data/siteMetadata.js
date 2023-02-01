@@ -3,7 +3,7 @@ const siteMetadata = {
     en: 'A community for the development of Pashto',
     ps: 'د پښتو د پرمختګ لپاره یوه ټولنه',
   },
-  author: 'Pashto DAO',
+  author: { en: 'Pashto DAO', ps: 'پښتو ډاو' },
   headerTitle: { en: 'Pashto DAO', ps: 'پښتو ډاو' },
   description: {
     en: 'Our mission is to create a vibrant community of volunteers and contributors who are dedicated to the development and adoption of the Pashto language',
