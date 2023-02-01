@@ -23,7 +23,7 @@ export default function PageLayout({ frontMatter, next, prev, availableLocales, 
       />
       <ScrollTopAndComment />
       <article>
-        <div>
+        <div className="max-w-prose text-base ">
           <header>
             <div className="space-y-1 border-b border-gray-200 pb-10 text-center dark:border-gray-700">
               <div>
