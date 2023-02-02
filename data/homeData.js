@@ -11,25 +11,25 @@ const homeData = {
       {
         title: 'Contribute',
         description: `There are many ways to contribute to the Pashto Community, including:`,
-        imgSrc: '/static/images/google.png',
+        imgSrc: '/static/images/volunteer.jpeg',
         href: '/contribute',
       },
       {
         title: 'Projects',
         description: `Here is a list of current projects being worked on by the Pashto Community:`,
-        imgSrc: '/static/images/time-machine.jpg',
+        imgSrc: '/static/images/ai-projects.jpeg',
         href: '/projects',
       },
       {
         title: 'Blog',
         description: `Stay up-to-date with the latest news and updates from the Pashto community`,
-        imgSrc: '/static/images/google.png',
+        imgSrc: '/static/images/blog.jpeg',
         href: '/blog',
       },
       {
         title: 'About us',
         description: `Our goal is to create a community for advancing the Pashto language adoption in digital products`,
-        imgSrc: '/static/images/time-machine.jpg',
+        imgSrc: '/static/images/about-us.jpeg',
         href: '/about',
       },
     ],
@@ -46,7 +46,7 @@ const homeData = {
       {
         title: 'مرسته وکړي',
         description: `په پښتو ټولنه کې د ونډې اخیستنې ډېرې لارې شته`,
-        imgSrc: '/static/images/google.png',
+        imgSrc: '/static/images/volunteer.jpeg',
         href: '/contribute',
       },
       {
