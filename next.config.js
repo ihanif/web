@@ -6,13 +6,13 @@ const nextTranslate = require('next-translate')
 
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app hf.space huggingface.co ihanif-whisper-medium-pashto.hf.space;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
   font-src 'self';
-  frame-src giscus.app
+  frame-src giscus.app hf.space huggingface.co ihanif-whisper-medium-pashto.hf.space
 `
 
 const securityHeaders = [

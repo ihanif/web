@@ -36,6 +36,14 @@ export default function ASR({ posts, locale, availableLocales }) {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {t(asrData[locale]?.description)}
           </p>
+          <div className="space-y-2  pb-8 md:space-y-5">
+            <iframe
+              src="https://ihanif-whisper-medium-pashto.hf.space"
+              frameBorder="1"
+              width="100%"
+              height="650"
+            ></iframe>
+          </div>
         </div>
       </div>
     </>
