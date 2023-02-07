@@ -6,7 +6,7 @@ import useTranslation from 'next-translate/useTranslation'
 const Card = ({ title, description, imgSrc, href, hrefCopy = 'Learn more →' }) => {
   const { t } = useTranslation()
   return (
-    <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
+    <div className="md p-4 md:w-1/2 " style={{ maxWidth: '544px' }}>
       <div
         className={`${
           imgSrc && 'h-full'

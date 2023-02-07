@@ -1,8 +1,9 @@
 {
   "home": "Home",
-  "projects": "Projects",
   "contribute": "Contribute",
-  "blog": "Blog",
+  "projects": "Projects",
+  "transcribe pashto": "Transcribe Pashto",
   "about": "About",
-  "contact": "Contact"
+  "contact": "Contact",
+  "blog": "Blog"
 }
