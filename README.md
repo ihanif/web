@@ -1,41 +1,30 @@
-![tailwind-nextjs-banner](/public/static/images/tailwind-i18n.png)
+# Motivation
 
-# Tailwind Nextjs Starter Blog
+Around 60 million people over the world speak the Pashto language. However, with such prominent speakers, it still needs to be considered a low-resource language because of the low availability of digital content online.
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/timlrx/tailwind-nextjs-starter-blog?style=social)](https://GitHub.com/timlrx/tailwind-nextjs-starter-blog/stargazers/)
-[![GitHub forks](https://img.shields.io/github/forks/timlrx/tailwind-nextjs-starter-blog?style=social)](https://GitHub.com/timlrx/tailwind-nextjs-starter-blog/network/)
-[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Ftimlrxx)](https://twitter.com/timlrxx)
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&link=https://github.com/sponsors/timlrx)](https://github.com/sponsors/timlrx)
+# Goal
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/GautierArcin/i18n-tailwind-nextjs-starter-blog/tree/demo/next-translate)
+Our goal is to create a community for advancing the Pashto language adoption in digital products (Automatic Speech Recognition, transcription, digital dictionaries, grammar correction, text-to-speech systems etc.)
 
-Unofficial i18n fork of the excellent [Tailwind CSS blogging starter template](https://github.com/timlrx/tailwind-nextjs-starter-blog) implementing sub-path i18n routing & `next-translate`.
-I try to maintin it as up to date as possible with main repo.
+# Process
 
-Check out the documentation below to get started (or on main repo) to get started.
+We aim to create open source (publicly available) projects with the help of volunteers. We will create a timeline to achieve specific goals by each quarter of the year.
 
-Feel free to contribute if you see any features missing.
+# Challenges
 
-## Examples
+We must tackle some challenges to uplift Pashto from a low resource to a web-rich language. However, one of the biggest challenges for content creation in the Pashot language is typing grammatically correct sentences using the available keyboards.
 
-- [Demo Blog](https://tailwind-nextjs-starter-blog-seven.vercel.app) - this repo
-- [My blog](www.gautierarcin.com)
+Our first goal is to create an automatic speech recognition system in Pashto that will transcribe spoken words into written Pashto. We need training data in the Pashto language to create such a system. Usually, this training data is created through another open-source project called [Mozilla Common Voice](https://commonvoice.mozilla.org/ps). Unfortunately, Pashto is one of those few languages with no data in the Common Voice project.
 
-Using the template? Feel free to create a PR and add your blog to this list.
+Our top challenges, in order of priority, are as follows:
 
-## Motivation
+1. Complete translation of Common Voice portal to Pashto
+2. Create sentences in the Pashto language for Common Voice
+3. Collect utterances against sentences collected for Common Voice
+4. Train/fine-tune the ASR AI model
+5. Devise a unified approach towards Pashto langue corpus creation
 
-I wanted found [Tailwind CSS blogging starter template](https://github.com/timlrx/tailwind-nextjs-starter-blog) and was quite happy with it. Only problem is that it didn't supported multiple languages and I wanted to create a blog in both English and French.
-
-## Features
-
-All of the main repo Features &
-
-- Sub-path routing with locale(s)
-
-- Multi-langage post support
-
-- Optimized & flexible multi-locale SEO
+# Contribution
 
 ## Quick Start Guide
 
@@ -62,13 +51,3 @@ To have localized version for post, please follow this naming convention:
 `myPost.[locale].md`: additional locales
 
 Post can be provided in only one locale (that doesn't need to be defaultLocale).
-
-The API routes used in the newsletter component cannot be used in a static site export. You will need to use a form API endpoint provider and substitute the route in the newsletter component accordingly. Other hosting platforms such as Netlify also offer alternative solutions - please refer to their docs for more information.
-
-## Support
-
-Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/timlrx).
-
-## Licence
-
-[MIT](https://github.com/timlrx/tailwind-nextjs-starter-blog/blob/master/LICENSE) © [Timothy Lin](https://www.timlrx.com)
