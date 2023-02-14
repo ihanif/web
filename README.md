@@ -28,19 +28,15 @@ Our top challenges, in order of priority, are as follows:
 
 ## Quick Start Guide
 
-Please follow [main repo](https://github.com/timlrx/tailwind-nextjs-starter-blog)'s' **Quick Start Guide** section for general instructions. This section will only cover what to do to add your own(s) locale(s) to the site.
+Please follow [main repo](https://github.com/timlrx/tailwind-nextjs-starter-blog)'s' **Quick Start Guide** section for general instructions. This section will only cover what to do to add our own(s) locale(s) to the site.
 
-This repository is furnished with `en` as defaultLocale and with `fr` as additional locale. You can provide as many locales as you want, you'll just add the corresponding translation.
+This repository is furnished with `ps` (Pashto) as defaultLocale and with `en` (English) as additional locale.
 
-If you add a new translations in `locales` folder, please PR this repo. That might help next users / forks.
-
-1. Checkout the `demo/next-translate` branch on this repo. `Master` is kept up to date with [`timlrx/tailwind-nextjs-starter-blog`](https://github.com/timlrx/tailwind-nextjs-starter-blog)
-2. Add your own locales and default locale in `i18n.json`
-3. Add a folder for every locale in the `locales` folder.
-4. For each `.json` files (`404.json`, `common.json`, `headerNavLink.json`, ...) in your `/locales/[locale]` folder, provide a translation
-5. Complete `data/siteMetadata.js`, adding the localized version for certain field (like `title` or `description`, for example.)
-6. Complete the localization of `data/projectData.js`
-7. Voilà ! You're done !
+1. Checkout the `main` branch on this repo.
+2. For each `.json` files (`404.json`, `common.json`, `headerNavLink.json`, ...) in your `/locales/[locale]` folder, provide a translation
+3. Complete `data/siteMetadata.js`, adding the localized version for certain field (like `title` or `description`, for example.)
+4. Complete the localization of `data/projectData.js`
+5. Voilà ! You're done !
 
 ## Post
 
@@ -50,4 +46,4 @@ To have localized version for post, please follow this naming convention:
 
 `myPost.[locale].md`: additional locales
 
-Post can be provided in only one locale (that doesn't need to be defaultLocale).
+Post can also be provided in only one locale (that doesn't need to be defaultLocale).
