@@ -6,7 +6,7 @@ const nextTranslate = require('next-translate')
 
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app hf.space huggingface.co ihanif-whisper-medium-pashto.hf.space;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app hf.space huggingface.co ihanif-whisper-medium-pashto.hf.space https://gradio.s3-us-west-2.amazonaws.com/3.9.1/gradio.js;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src 'none';
@@ -17,10 +17,10 @@ const ContentSecurityPolicy = `
 
 const securityHeaders = [
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-  {
+  /* {
     key: 'Content-Security-Policy',
     value: ContentSecurityPolicy.replace(/\n/g, ''),
-  },
+  }, */
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
   {
     key: 'Referrer-Policy',

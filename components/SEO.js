@@ -137,6 +137,31 @@ export const TagSEO = ({ title, description, availableLocales }) => {
   )
 }
 
+export const ASRSEO = ({ title, description, availableLocales }) => {
+  const ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
+  const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
+  const router = useRouter()
+  return (
+    <>
+      <CommonSEO
+        title={title}
+        description={description}
+        ogType="website"
+        ogImage={ogImageUrl}
+        twImage={twImageUrl}
+        availableLocales={availableLocales}
+      />
+      <Head>
+        <script
+          type="module"
+          src="https://gradio.s3-us-west-2.amazonaws.com/3.9.1/gradio.js"
+          async
+        ></script>
+      </Head>
+    </>
+  )
+}
+
 export const BlogSEO = ({
   authorDetails,
   title,
