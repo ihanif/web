@@ -9,7 +9,7 @@ export async function getStaticProps({ locale, locales }) {
   return { props: { locale, availableLocales: locales } }
 }
 
-export default function Home({ posts, locale, availableLocales }) {
+export default function Home({ locale, availableLocales }) {
   const { t } = useTranslation()
 
   return (
@@ -21,7 +21,7 @@ export default function Home({ posts, locale, availableLocales }) {
       />
 
       <main>
-        <div classNameName="relative px-6 lg:px-8">
+        <div className="relative px-6 lg:px-8">
           <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
             <svg
               className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
