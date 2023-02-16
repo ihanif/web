@@ -1,3 +1,7 @@
+# What is Pashto DAO?
+
+Pashto DAO is a Decentralized Autonomous Organization (DAO). We aim to build an autonomous, transparent, and inclusive community for the adoption of the Pashto language. Each community member will have a say in the governorship without centralized leadership.
+
 # Motivation
 
 Around 60 million people over the world speak the Pashto language. However, with such prominent speakers, it still needs to be considered a low-resource language because of the low availability of digital content online.
