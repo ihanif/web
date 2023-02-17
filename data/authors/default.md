@@ -1,16 +1,12 @@
 ---
 name: Hanif Rahman
-avatar: /static/images/avatar.png
+avatar: /static/images/hanif-avatar.jpeg
 occupation: Software Engineer
 company: Pashto DAO
 email: address@yoursite.com
-twitter: https://twitter.com/Twitter
+twitter: https://twitter.com/0xhanifkhan
 linkedin: https://www.linkedin.com
-github: https://github.com
+github: https://github.com/pashtodao
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
-
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Striving to build meaningful tools using Web3, AI, and NLP. Driven to create tech solutions that help bring positive social change.
