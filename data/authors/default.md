@@ -1,8 +1,8 @@
 ---
-name: Hanif Rahman
+name: حنیف رحمان
 avatar: /static/images/hanif-avatar.jpeg
-occupation: Software Engineer
-company: Pashto DAO
+occupation: سافټویر انجینر
+company: پښتو ډاو
 email: address@yoursite.com
 twitter: https://twitter.com/0xhanifkhan
 linkedin: https://www.linkedin.com
