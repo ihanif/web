@@ -8,7 +8,7 @@ const asrData = {
   ps: {
     title: 'د پښتو اتوماتیک وینا پیژندنه',
     description: 'تاسو کولی شئ په لاندې لینک کې د پښتو اتوماتیک وینا پیژندنې ته هم لاسرسی ومومئ:',
-    primaryCTA: 'Contribute',
+    primaryCTA: 'مرسته وکړي',
   },
 }
 

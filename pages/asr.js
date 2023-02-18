@@ -1,6 +1,5 @@
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
-import siteMetadata from '@/data/siteMetadata'
 import asrData from '@/data/asrData'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import useTranslation from 'next-translate/useTranslation'
@@ -20,8 +19,8 @@ export default function ASR({ posts, locale, availableLocales }) {
   return (
     <>
       <PageSEO
-        title={siteMetadata.title[locale]}
-        description={siteMetadata.description[locale]}
+        title={asrData[locale]?.title}
+        description={asrData[locale]?.description}
         availableLocales={availableLocales}
       />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
