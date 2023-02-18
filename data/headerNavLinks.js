@@ -4,6 +4,7 @@ const headerNavLinks = [
   //{ href: '/projects', title: 'Projects' },
   { href: '/asr', title: 'Transcribe Pashto' },
   { href: '/about', title: 'About' },
+  { href: '/roadmap', title: 'Roadmap' },
   //{ href: '/contact', title: 'Contact' },
   { href: '/blog', title: 'Blog' },
 ]
