@@ -23,10 +23,10 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'address@yoursite.com',
   github: 'https://github.com/pashtodao',
-  twitter: 'https://twitter.com/0xhanifkhan',
-  facebook: 'https://facebook.com',
+  twitter: 'https://twitter.com/pashtodao',
+  facebook: 'https://www.facebook.com/pashtodao',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/pashtodao',
   locale: 'ps-AF',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
