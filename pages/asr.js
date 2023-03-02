@@ -52,7 +52,7 @@ export default function ASR({ posts, locale, availableLocales }) {
                 sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-downloads"
                 frameBorder="1"
                 width="100%"
-                height="650"
+                height="850"
               ></iframe>
             }
             {/* <gradio-app space="ihanif/wav2vec-pashto-asr"></gradio-app> */}
