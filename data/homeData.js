@@ -39,12 +39,12 @@ const homeData = {
       title: 'د پښتو د پرمختګ لپاره یوه ټولنه',
       description:
         'زموږ دنده دا ده چې د رضاکارانو او مرسته کونکو یوه فعاله ټولنه رامینځته کړو چې د پښتو ژبې پراختیا او پلي کولو ته وقف شوي وي.',
-      primaryCTA: 'مرسته وکړي',
+      primaryCTA: 'مرسته وکړئ',
       secondaryCTA: 'تفصيلات وګورئ ←',
     },
     links: [
       {
-        title: 'مرسته وکړي',
+        title: 'مرسته وکړئ',
         description: `په پښتو ټولنه کې د ونډې اخیستنې ډېرې لارې شته`,
         imgSrc: '/static/images/volunteer.jpeg',
         href: '/contribute',
