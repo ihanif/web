@@ -1,9 +1,10 @@
 {
-  "locales": ["ps", "en"],
-  "defaultLocale": "ps",
-  "localeDetection": false,
+  "locales": ["en", "ps"],
+  "defaultLocale": "en",
   "pages": {
-    "*": ["common", "headerNavLinks", "newsletter", "404", "SEO"],
-    "/projects": ["projects"]
+    "*": ["common", "headerNavLinks"],
+    "/blog": ["blog"],
+    "/404": ["404"],
+    "/about": ["about"]
   }
 }
