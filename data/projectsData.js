@@ -1,38 +1,94 @@
+// Updated 2024-07-28: Added PashtoPal project entry at the top. Replaced mock projects with specific Pashto-related projects. Added placeholders for descriptions, images, links, and Pashto translations.
 const projectsData = {
   en: [
     {
-      title: 'A Search Engine',
-      description: `What if you could look up any information in the world? Webpages, images, videos
-      and more. Google has many features to help you find exactly what you're looking
-      for.`,
-      imgSrc: '/static/images/google.png',
-      href: 'https://www.google.com',
+      title: 'PashtoPal Website',
+      description:
+        'It is a web application that allows users to chat with AI models in Pashto language.',
+      imgSrc: '/static/images/projects/pashto_pashtopal.png', // Placeholder image path
+      href: 'https://pashtopal.com/',
     },
     {
-      title: 'The Time Machine',
-      description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-      to the desired date and press "Go". No more worrying about lost keys or
-      forgotten handphones with this simple yet affordable solution.`,
-      imgSrc: '/static/images/time-machine.jpg',
-      href: '/blog/the-time-machine',
+      title: 'Pashto Speech Recognition',
+      description: `It is a web application that allows users to transcribe speech to text in Pashto language.`,
+      imgSrc: '/static/images/projects/pashto_asr.png', // Placeholder image
+      href: 'https://huggingface.co/spaces/ihanif/pashto-asr-v3', // Placeholder link
+    },
+    {
+      title: 'Pashto Text-to-Speech (espeak-ng)',
+      description: `It is a desktop application that allows users to convert text to speech in Pashto language.`,
+      imgSrc: '/static/images/projects/pashto_espeak_ng.png', // Placeholder image
+      href: 'https://github.com/espeak-ng/espeak-ng/pull/2152', // Placeholder link
+    },
+    {
+      title: 'Pashto Phonetic Keyboard (Chrome Extension)',
+      description: `It is a Chrome extension that allows users to type in Pashto language on any website using the phonetic keyboard.`,
+      imgSrc: '/static/images/projects/pashto_phonetic_keyboard.png', // Placeholder image
+      href: 'https://chromewebstore.google.com/detail/pashto-phonetic-keyboard/ppcgaplhlogjfgbkmdjkpoggahdoikio?hl=en', // Placeholder link
+    },
+    {
+      title: 'Pashto Common Voice Project',
+      description: `A crowdsourcing initiative to collect Pashto voice data for speech recognition and TTS.`,
+      imgSrc: '/static/images/projects/pashto_common_voice.png', // Placeholder image
+      href: 'https://commonvoice.mozilla.org/ps/speak', // Placeholder link
+    },
+    {
+      title: 'Pashto Synthetic Voice Datasets',
+      description: `A collection of synthetic voice datasets for Pashto language.`,
+      imgSrc: '/static/images/projects/pashto_speech_3k.png', // Placeholder image
+      href: 'https://huggingface.co/datasets/ihanif/pashto_speech_3k', // Placeholder link
+    },
+    {
+      title: 'Pashto 100K Sentences Corpus',
+      description: `A corpus of 100K sentences for Pashto language.`,
+      imgSrc: '/static/images/projects/pashto_sentences_100k.png', // Placeholder image
+      href: 'https://huggingface.co/datasets/ihanif/ps_news_2020_100K-sentences_processed', // Placeholder link
     },
   ],
   ps: [
+    // Using placeholders for Pashto titles and descriptions
     {
-      title: 'Un moteur de recherche',
-      description: `Et si vous pouviez rechercher n'importe quelle information dans le monde ? Pages web, images, vidéos
-      et bien d'autres choses encore. Google propose de nombreuses fonctionnalités pour vous aider à trouver exactement ce que vous recherchez.
-      pour.`,
-      imgSrc: '/static/images/google.png',
-      href: 'https://www.google.com',
+      title: 'پښتو پال ویب پاڼه',
+      description:
+        'دا یوه ویب اپلیکیشن دی چې کارونکو ته اجازه ورکوي چې په پښتو ژبه کې د مصنوعي ذکاوت ماډلونو سره خبرې وکړي.',
+      imgSrc: '/static/images/projects/pashto_pashtopal.png', // Placeholder image path
+      href: 'https://pashtopal.com/',
     },
     {
-      title: 'La machine à remonter le temps',
-      description: `Imaginez que vous puissiez voyager dans le passé ou dans le futur. Il suffit de tourner le bouton
-      sur la date souhaitée et d'appuyer sur "Go". Plus besoin de se soucier des clés perdues ou des téléphones portables oubliés avec cette solution simple et abordable.
-      ou de téléphones portables oubliés grâce à cette solution simple et abordable.`,
-      imgSrc: '/static/images/time-machine.jpg',
-      href: '/blog/the-time-machine',
+      title: 'د پښتو وینا پیژندنه',
+      description: `دا یوه ویب اپلیکیشن دی چې کارونکو ته اجازه ورکوي چې په پښتو ژبه کې وینا متن ته واړوي.`,
+      imgSrc: '/static/images/projects/pashto_asr.png', // Placeholder image
+      href: 'https://huggingface.co/spaces/ihanif/pashto-asr-v3', // Placeholder link
+    },
+    {
+      title: 'د پښتو متن څخه وینا (espeak-ng)',
+      description: `دا یو ډیسکټاپ اپلیکیشن دی چې کارونکو ته اجازه ورکوي چې په پښتو ژبه کې متن وینا ته واړوي.`,
+      imgSrc: '/static/images/projects/pashto_espeak_ng.png', // Placeholder image
+      href: 'https://github.com/espeak-ng/espeak-ng/pull/2152', // Placeholder link
+    },
+    {
+      title: 'د پښتو فونیټیک کیبورډ (کروم اېکسټېنشن)',
+      description: `دا د کروم توسیع ده چې کارونکو ته اجازه ورکوي چې په هر ویب پاڼه کې د فونیټیک کیبورډ په کارولو سره په پښتو ژبه کې ټایپ وکړي.`,
+      imgSrc: '/static/images/projects/pashto_phonetic_keyboard.png', // Placeholder image
+      href: 'https://chromewebstore.google.com/detail/pashto-phonetic-keyboard/ppcgaplhlogjfgbkmdjkpoggahdoikio?hl=en', // Placeholder link
+    },
+    {
+      title: 'د پښتو عام غږ پروژه',
+      description: `د پښتو غږ معلوماتو راټولولو لپاره د ګڼو خلکو ګډون نوښت چې د وینا پیژندنې او TTS لپاره کارول کیږي.`,
+      imgSrc: '/static/images/projects/pashto_common_voice.png', // Placeholder image
+      href: 'https://commonvoice.mozilla.org/ps/speak', // Placeholder link
+    },
+    {
+      title: 'د پښتو مصنوعي غږ ډیټا سیټونه',
+      description: `د پښتو ژبې لپاره د مصنوعي غږ ډیټاسیټونو ټولګه.`,
+      imgSrc: '/static/images/projects/pashto_speech_3k.png', // Placeholder image
+      href: 'https://huggingface.co/datasets/ihanif/pashto_speech_3k', // Placeholder link
+    },
+    {
+      title: 'د پښتو ۱۰۰ زره جملو کارپس',
+      description: `د پښتو ژبې لپاره د ۱۰۰ زره جملو کارپس.`,
+      imgSrc: '/static/images/projects/pashto_sentences_100k.png', // Placeholder image
+      href: 'https://huggingface.co/datasets/ihanif/ps_news_2020_100K-sentences_processed', // Placeholder link
     },
   ],
 }
