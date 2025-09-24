@@ -1,4 +1,5 @@
 // Updated 2024-07-28: Added PashtoPal project entry at the top. Replaced mock projects with specific Pashto-related projects. Added placeholders for descriptions, images, links, and Pashto translations.
+// 2024-07-28: Added "Pashto Phonetic Keyboard for macOS" project entry with English and Pashto descriptions.
 const projectsData = {
   en: [
     {
@@ -19,6 +20,13 @@ const projectsData = {
       description: `It is a desktop application that allows users to convert text to speech in Pashto language.`,
       imgSrc: '/static/images/projects/pashto_espeak_ng.png', // Placeholder image
       href: 'https://github.com/espeak-ng/espeak-ng/pull/2152', // Placeholder link
+    },
+    {
+      title: 'Pashto Phonetic Keyboard for macOS',
+      description:
+        'A simple keyboard layout for macOS that lets you type Pashto using phonetic (English) keys. It makes typing Pashto on your Mac easy and fast.',
+      imgSrc: '/static/images/projects/pashto-keyboard-mac.png', // Placeholder image
+      href: 'https://github.com/ihanif/pashto-phonetic-keyboard-macos', // Placeholder link
     },
     {
       title: 'Pashto Phonetic Keyboard (Chrome Extension)',
@@ -67,11 +75,19 @@ const projectsData = {
       href: 'https://github.com/espeak-ng/espeak-ng/pull/2152', // Placeholder link
     },
     {
+      title: 'د پښتو فونیټیک کیبورډ د مېک لپاره',
+      description:
+        'دا د مېک کمپیوټر لپاره یو ساده کیبورډ لی آوټ دی چې تاسو ته اجازه درکوي د انګلیسي تورو په کارولو سره په پښتو ژبه کې اسانه او چټک ټایپ وکړئ.',
+      imgSrc: '/static/images/projects/pashto-keyboard-mac.png', // Placeholder image
+      href: 'https://github.com/ihanif/pashto-phonetic-keyboard-macos', // Placeholder link
+    },
+    {
       title: 'د پښتو فونیټیک کیبورډ (کروم اېکسټېنشن)',
       description: `دا د کروم توسیع ده چې کارونکو ته اجازه ورکوي چې په هر ویب پاڼه کې د فونیټیک کیبورډ په کارولو سره په پښتو ژبه کې ټایپ وکړي.`,
       imgSrc: '/static/images/projects/pashto_phonetic_keyboard.png', // Placeholder image
       href: 'https://chromewebstore.google.com/detail/pashto-phonetic-keyboard/ppcgaplhlogjfgbkmdjkpoggahdoikio?hl=en', // Placeholder link
     },
+
     {
       title: 'د پښتو عام غږ پروژه',
       description: `د پښتو غږ معلوماتو راټولولو لپاره د ګڼو خلکو ګډون نوښت چې د وینا پیژندنې او TTS لپاره کارول کیږي.`,
